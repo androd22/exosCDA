@@ -1,0 +1,75 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin:0;
+}
+header{
+    color: gold;
+    font-weight: 100;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+header button{border:none; background:black;color: gold;}
+body{background:url("../img/FI1aezGXEAM4LiN.jfif") fixed no-repeat;background-size: cover;}
+#collection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 1em auto;
+}
+.game{
+    background: rgba(0,0,0,.4);
+    backdrop-filter: blur(10px);
+    color: white;
+    min-height: 20vh;
+    width: 15vw;
+    border-radius: 10px;
+    border: gold;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.game img{
+    max-width: 100%;
+}
+.game figcaption>*{
+    display: block;
+}
+.game p{
+    font-size: .9em;
+    margin: .5em auto;
+    text-align: left;
+}
+.game aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#controls{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+#controls button{
+    background: black;
+    color: gold;
+    font-weight: 100;
+    border:none;
+    padding:1em;
+    border-radius: 10px;
+}
+
+
+/**     Dark Mode       **/
+.darkModeClass{
+    background: #111;
+    color: #eee;
+}
