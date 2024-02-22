@@ -1,0 +1,20 @@
+ [
+    {
+        "pseudo": "Ali",
+        "email": "Malik@gmail.com",
+        "age": 28,
+        "mdp": "1234"
+    },
+    {
+        "pseudo": "Negoita",
+        "email": "Cosmin@gmail.com",
+        "age": 28,
+        "mdp":"1234"
+    },
+    {
+        "pseudo": "Tudor",
+        "email": "Andrei@gmail.com",
+        "age": 28,
+        "mdp":"1234"
+    }   
+]

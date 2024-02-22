@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>ExosCDA</title>
 </head>
-<body>
-<header>
-    <nav>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </nav>
-</header>
-<div class="hero">
-    <h1></h1>
-    <h3></h3>
-
-</div>
-<main>
-    <p>Whaever</p>
-
-</main>
+<body style="display: flex; flex-direction: column;" >
+    <h1 class="text-4xl text-center" >Inscription</h1>
+    <form method="post" class="flex flex-col items-center" >
+        <input type="text" name="pseudo" placeholder="Pseudo" id="pseudo" class="border-2 border-black rounded-md p-2 m-2" >
+        <input type="email" name="email" placeholder="Email" id="email" class="border-2 border-black rounded-md p-2 m-2" >
+        <input type="text" name="age" placeholder="Age" id="age" class="border-2 border-black rounded-md p-2 m-2" >
+        <input type="password" name="password" placeholder="Mot de passe" id="mdp" class="border-2 border-black rounded-md p-2 m-2" >
+        <input type="password" name="password2" placeholder="Confirmer mot de passe" id="confirm" class="border-2 border-black rounded-md p-2 m-2" >
+        <input type="submit" value="S'inscrire" id="submit" class="border-2 border-black rounded-md p-2 m-2" >
+        <p id="message" ></p>
+        <div id="container"></div>
+    </form>
 
 
 
 
 
 
-<script src="app.js" ></script>
+
+
+
+
+
+
+<script src="app.js" type="module" ></script>
 </body>
 </html>
